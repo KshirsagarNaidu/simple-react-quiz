@@ -1,0 +1,45 @@
+.hide {
+	display : none;
+}
+
+.input-group {
+	margin: 10px;
+}
+
+.btn-group>div {
+	border-radius: 5px;
+}
+
+.center {
+ text-align: center;   
+}
+
+.submitButton {
+    margin: 0.5em;
+	text-align: center;
+	position: relative;
+}
+
+.fa-stack	{
+	font-size: 2em;
+}
+
+.fa-stack-1x.padding-top-sm{
+	color : #fff;
+}
+
+.result {
+	font-size : 5em;
+	color : #000;
+	border-radius: 2px;
+	margin : 0.5em;
+}
+
+.relative {
+	position: relative;
+}
+
+.submitButton div.btn.btn-primary{
+	right: 0;
+	position: absolute;
+}

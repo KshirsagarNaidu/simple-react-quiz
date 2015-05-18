@@ -1,0 +1,32 @@
+{
+    "name" : "react-quiz",
+    "version" : "0.0.1",
+    "devDependencies" : {
+        "gulp" : "latest",
+        "gulp-run" : "lastest",
+        "gulp-stylus" : "latest",
+        "gulp-concat" : "latest",
+        "gulp-uglify" : "latest",
+        "gulp-minify-css" : "latest",
+        "gulp-jshint" : "latest",
+        "browser-sync" : "latest",
+        "browserify" : "latest",
+        "vinyl-source-stream" : "latest",
+        "vinyl-buffer" : "latest",
+        "reactify" : "latest",
+        "del" : "latest"
+    },
+    "paths" : {
+        "stylus" : "assets/stylus/*.less",
+        "js" : "./app/**/*.js",
+        "jsx" : "./app/**/*.jsx",
+        "app" : "./app/app.js",
+        "html" : "*.html"
+    },
+    "dest" : {
+        "style" : "style.css",
+        "app": "app.js",
+        "dist" : "dist"
+    }
+};
+
